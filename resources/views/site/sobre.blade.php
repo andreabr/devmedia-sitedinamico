@@ -9,10 +9,14 @@
 	</div>
 	<div class="row section">
 		<div class="col s12 m6">
-			<img class="responsive-img" src="{{ asset }}" alt="">
+			<img class="responsive-img" src="{{ asset('img/modelo_img_home.jpg') }}" alt="">
 		</div>
 		<div class="col s12 m6">
-			
+			<h4>A empresa</h4>
+			<blockquote>
+				Descrição breve sobre a empresa.
+			</blockquote>
+			<p>Texto sobre a empresa.</p>
 		</div>
 	</div>
 </div>
